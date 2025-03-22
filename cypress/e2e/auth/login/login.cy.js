@@ -7,7 +7,7 @@ describe("Login", () => {
   beforeEach(() => {
     cy.visit("https://www.saucedemo.com/");
   });
-  it("Input Valid Username and Password should be success", () => {
+  it("Input Valid Username and Password should be Success", () => {
     cy.visit("https://www.saucedemo.com/");
     cy.get(loginPage.emailInput).type(dataUser.email);
     cy.get(loginPage.passwordInput).type(dataUser.password);
